@@ -7,26 +7,31 @@
   <body>
     <h1>Contact Me</h1>
     <p>Selamat Datang di Website Pribadi Saya</p>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </body>
 </html>
 <nav>
-  <a href="index.html" class="nav-button">Index</a> | <a href="about.html" class="nav-button">About</a> |
-  <a href="project.html" class="nav-button">Project</a> | <a href="contact.html" class="nav-button">Contact</a> |
+  <a href="index.html" class="nav-button">Index</a> |
+  <a href="about.html" class="nav-button">About</a> |
+  <a href="project.html" class="nav-button">Project</a> |
+  <a href="contact.html" class="nav-button">Contact</a> |
   <a href="musik.html" class="nav-button">Musik</a>
 </nav>
 <hr />
 
-<h2>Informasi Kontak</h2>
-<p>
-  Jika anda ingin berdiskusi atau bekerja sama, silahkan menghubungi saya lewat
-  form berikut.<br />
-  Anda juga dapat mengirim Email ke
-  <a
-    href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=muhammadsalman@student.upi.edu"
-    >muhammadsalman@student.upi.edu</a
-  >
-</p>
+<div class="contact-info">
+  <h2>Informasi Kontak</h2>
+
+  <p>
+    Jika anda ingin berdiskusi atau bekerja sama, silahkan menghubungi saya
+    lewat form berikut.
+    <br />
+    Anda juga dapat mengirim Email ke
+    <a href="mailto:muhammadsalman@student.upi.edu">
+      muhammadsalman@student.upi.edu
+    </a>
+  </p>
+</div>
 
 <h2>Form Pesan</h2>
 
@@ -39,9 +44,9 @@
     width="50%"
     style="border-collapse: collapse; margin: 10 auto"
   >
-  <tr>
-    <th colspan="2">Form Data Kontak</th>
-  </tr>
+    <tr>
+      <th colspan="2">Form Data Kontak</th>
+    </tr>
     <tr>
       <td class="label">Nama :</td>
       <td class="input">
@@ -50,7 +55,8 @@
     </tr>
     <tr>
       <td class="label">Email :</td>
-      <td class="input"><input type="text" name="email" style="width: 250px" />
+      <td class="input">
+        <input type="text" name="email" style="width: 250px" />
       </td>
     </tr>
     <tr>
