@@ -1,0 +1,40 @@
+h1{
+    color: navy;
+}
+
+.Salman{
+    justify-content: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+body {
+    background: linear-gradient(to bottom, rgb(67, 67, 232), skyblue, white);
+}
+
+.nav-button {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.nav-button:hover {
+    background-color: white;
+    color: navy;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.deskripsi{
+    text-align: justify;
+}
+
+.about{
+    display: contents;
+    justify-content: left;
+    gap: 20px;
+}
