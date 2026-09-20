@@ -316,10 +316,6 @@ body > p:last-child {
 
 /* Tampilan Musik */
 
-/* =========================
-   HALAMAN MUSIK
-   ========================= */
-
 .favorite-singer {
   max-width: 1100px;
   margin: 40px auto;
@@ -337,9 +333,6 @@ body > p:last-child {
 .favorite-singer h2:nth-child(2) {
   font-size: 28px;
 }
-
-
-/* FOTO ARASH */
 
 .singer-gallery {
   display: flex;
@@ -360,9 +353,6 @@ body > p:last-child {
   transform: translateY(-8px) scale(1.03);
 }
 
-
-/* TOMBOL SPOTIFY */
-
 .spotify-button {
   display: inline-block;
   padding: 12px 22px;
@@ -377,9 +367,6 @@ body > p:last-child {
   transform: scale(1.05);
   background: white;
 }
-
-
-/* CERITA MUSIK */
 
 .music-story {
   max-width: 1000px;
@@ -399,9 +386,6 @@ body > p:last-child {
   text-align: justify;
   line-height: 1.7;
 }
-
-
-/* PLAYLIST */
 
 .playlist-section {
   max-width: 1100px;
